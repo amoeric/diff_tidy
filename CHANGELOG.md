@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.3.0] - 2026-03-19
+
+### Features
+
+- 多專案工作區：支援同時開啟多個 Git 倉庫，透過頁籤切換
+- 專案頁籤拖曳排序
+- Per-project 設定覆寫（預設目標分支、忽略路徑）
+- 多主題系統與 Light/Dark/System 色彩模式切換
+
+### Improvements
+
+- 自訂 overlay title bar，專案頁籤置於視窗最上方
+
+### Bug Fixes
+
+- 切換專案時跳過已載入的 diff，大幅提升切換速度
+
 ## [0.2.0] - 2026-03-18
 
 ### Features
